@@ -7,27 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		48FCE6F428DD11D7002C0C88 /* ChatMateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FCE6F328DD11D7002C0C88 /* ChatMateApp.swift */; };
-		48FCE6F628DD11D7002C0C88 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FCE6F528DD11D7002C0C88 /* ContentView.swift */; };
+		48FCE6F428DD11D7002C0C88 /* ChatMate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FCE6F328DD11D7002C0C88 /* ChatMate.swift */; };
+		48FCE6F628DD11D7002C0C88 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FCE6F528DD11D7002C0C88 /* StartView.swift */; };
 		48FCE6F828DD11D9002C0C88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48FCE6F728DD11D9002C0C88 /* Assets.xcassets */; };
 		48FCE6FB28DD11D9002C0C88 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48FCE6FA28DD11D9002C0C88 /* Preview Assets.xcassets */; };
-		48FCE70B28DD12A9002C0C88 /* LexendDeca-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48FCE70828DD12A9002C0C88 /* LexendDeca-SemiBold.ttf */; };
-		48FCE70C28DD12A9002C0C88 /* LexendDeca-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48FCE70928DD12A9002C0C88 /* LexendDeca-Regular.ttf */; };
-		48FCE70D28DD12A9002C0C88 /* LexendDeca-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48FCE70A28DD12A9002C0C88 /* LexendDeca-Bold.ttf */; };
 		48FCE71028DD135C002C0C88 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FCE70F28DD135C002C0C88 /* Fonts.swift */; };
+		48FCE71328DD1455002C0C88 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FCE71228DD1455002C0C88 /* CustomTabBar.swift */; };
+		48FCE71A28DD18DC002C0C88 /* LexendDeca-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48FCE71728DD18DC002C0C88 /* LexendDeca-Bold.ttf */; };
+		48FCE71B28DD18DC002C0C88 /* LexendDeca-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48FCE71828DD18DC002C0C88 /* LexendDeca-Regular.ttf */; };
+		48FCE71C28DD18DC002C0C88 /* LexendDeca-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48FCE71928DD18DC002C0C88 /* LexendDeca-SemiBold.ttf */; };
+		48FCE71E28DD1AD3002C0C88 /* TabBarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FCE71D28DD1AD3002C0C88 /* TabBarButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		48FCE6F028DD11D7002C0C88 /* ChatMate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatMate.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		48FCE6F328DD11D7002C0C88 /* ChatMateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMateApp.swift; sourceTree = "<group>"; };
-		48FCE6F528DD11D7002C0C88 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		48FCE6F328DD11D7002C0C88 /* ChatMate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMate.swift; sourceTree = "<group>"; };
+		48FCE6F528DD11D7002C0C88 /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
 		48FCE6F728DD11D9002C0C88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		48FCE6FA28DD11D9002C0C88 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		48FCE70828DD12A9002C0C88 /* LexendDeca-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "LexendDeca-SemiBold.ttf"; path = "../../../../../Downloads/Module 02/Lesson 02/swiftui-chat/swiftui-chat/Fonts/LexendDeca-SemiBold.ttf"; sourceTree = "<group>"; };
-		48FCE70928DD12A9002C0C88 /* LexendDeca-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "LexendDeca-Regular.ttf"; path = "../../../../../Downloads/Module 02/Lesson 02/swiftui-chat/swiftui-chat/Fonts/LexendDeca-Regular.ttf"; sourceTree = "<group>"; };
-		48FCE70A28DD12A9002C0C88 /* LexendDeca-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "LexendDeca-Bold.ttf"; path = "../../../../../Downloads/Module 02/Lesson 02/swiftui-chat/swiftui-chat/Fonts/LexendDeca-Bold.ttf"; sourceTree = "<group>"; };
 		48FCE70E28DD1306002C0C88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		48FCE70F28DD135C002C0C88 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		48FCE71228DD1455002C0C88 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		48FCE71728DD18DC002C0C88 /* LexendDeca-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LexendDeca-Bold.ttf"; sourceTree = "<group>"; };
+		48FCE71828DD18DC002C0C88 /* LexendDeca-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LexendDeca-Regular.ttf"; sourceTree = "<group>"; };
+		48FCE71928DD18DC002C0C88 /* LexendDeca-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LexendDeca-SemiBold.ttf"; sourceTree = "<group>"; };
+		48FCE71D28DD1AD3002C0C88 /* TabBarButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				48FCE70E28DD1306002C0C88 /* Info.plist */,
-				48FCE6F328DD11D7002C0C88 /* ChatMateApp.swift */,
+				48FCE6F328DD11D7002C0C88 /* ChatMate.swift */,
 				48FCE70128DD11E7002C0C88 /* Views */,
 				48FCE70328DD11F2002C0C88 /* Model */,
 				48FCE70228DD11EC002C0C88 /* ViewModel */,
@@ -85,7 +89,8 @@
 		48FCE70128DD11E7002C0C88 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				48FCE6F528DD11D7002C0C88 /* ContentView.swift */,
+				48FCE6F528DD11D7002C0C88 /* StartView.swift */,
+				48FCE71128DD1435002C0C88 /* TabBar */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -122,11 +127,20 @@
 		48FCE70728DD1294002C0C88 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				48FCE70A28DD12A9002C0C88 /* LexendDeca-Bold.ttf */,
-				48FCE70928DD12A9002C0C88 /* LexendDeca-Regular.ttf */,
-				48FCE70828DD12A9002C0C88 /* LexendDeca-SemiBold.ttf */,
+				48FCE71728DD18DC002C0C88 /* LexendDeca-Bold.ttf */,
+				48FCE71828DD18DC002C0C88 /* LexendDeca-Regular.ttf */,
+				48FCE71928DD18DC002C0C88 /* LexendDeca-SemiBold.ttf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		48FCE71128DD1435002C0C88 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				48FCE71228DD1455002C0C88 /* CustomTabBar.swift */,
+				48FCE71D28DD1AD3002C0C88 /* TabBarButton.swift */,
+			);
+			path = TabBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,10 +202,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				48FCE6FB28DD11D9002C0C88 /* Preview Assets.xcassets in Resources */,
-				48FCE70D28DD12A9002C0C88 /* LexendDeca-Bold.ttf in Resources */,
 				48FCE6F828DD11D9002C0C88 /* Assets.xcassets in Resources */,
-				48FCE70C28DD12A9002C0C88 /* LexendDeca-Regular.ttf in Resources */,
-				48FCE70B28DD12A9002C0C88 /* LexendDeca-SemiBold.ttf in Resources */,
+				48FCE71C28DD18DC002C0C88 /* LexendDeca-SemiBold.ttf in Resources */,
+				48FCE71B28DD18DC002C0C88 /* LexendDeca-Regular.ttf in Resources */,
+				48FCE71A28DD18DC002C0C88 /* LexendDeca-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,9 +216,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48FCE6F628DD11D7002C0C88 /* ContentView.swift in Sources */,
+				48FCE71328DD1455002C0C88 /* CustomTabBar.swift in Sources */,
+				48FCE6F628DD11D7002C0C88 /* StartView.swift in Sources */,
 				48FCE71028DD135C002C0C88 /* Fonts.swift in Sources */,
-				48FCE6F428DD11D7002C0C88 /* ChatMateApp.swift in Sources */,
+				48FCE71E28DD1AD3002C0C88 /* TabBarButton.swift in Sources */,
+				48FCE6F428DD11D7002C0C88 /* ChatMate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
