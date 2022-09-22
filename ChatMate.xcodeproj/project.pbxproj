@@ -11,6 +11,10 @@
 		48FCE6F628DD11D7002C0C88 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FCE6F528DD11D7002C0C88 /* ContentView.swift */; };
 		48FCE6F828DD11D9002C0C88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48FCE6F728DD11D9002C0C88 /* Assets.xcassets */; };
 		48FCE6FB28DD11D9002C0C88 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48FCE6FA28DD11D9002C0C88 /* Preview Assets.xcassets */; };
+		48FCE70B28DD12A9002C0C88 /* LexendDeca-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48FCE70828DD12A9002C0C88 /* LexendDeca-SemiBold.ttf */; };
+		48FCE70C28DD12A9002C0C88 /* LexendDeca-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48FCE70928DD12A9002C0C88 /* LexendDeca-Regular.ttf */; };
+		48FCE70D28DD12A9002C0C88 /* LexendDeca-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48FCE70A28DD12A9002C0C88 /* LexendDeca-Bold.ttf */; };
+		48FCE71028DD135C002C0C88 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FCE70F28DD135C002C0C88 /* Fonts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,11 @@
 		48FCE6F528DD11D7002C0C88 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		48FCE6F728DD11D9002C0C88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		48FCE6FA28DD11D9002C0C88 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		48FCE70828DD12A9002C0C88 /* LexendDeca-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "LexendDeca-SemiBold.ttf"; path = "../../../../../Downloads/Module 02/Lesson 02/swiftui-chat/swiftui-chat/Fonts/LexendDeca-SemiBold.ttf"; sourceTree = "<group>"; };
+		48FCE70928DD12A9002C0C88 /* LexendDeca-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "LexendDeca-Regular.ttf"; path = "../../../../../Downloads/Module 02/Lesson 02/swiftui-chat/swiftui-chat/Fonts/LexendDeca-Regular.ttf"; sourceTree = "<group>"; };
+		48FCE70A28DD12A9002C0C88 /* LexendDeca-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "LexendDeca-Bold.ttf"; path = "../../../../../Downloads/Module 02/Lesson 02/swiftui-chat/swiftui-chat/Fonts/LexendDeca-Bold.ttf"; sourceTree = "<group>"; };
+		48FCE70E28DD1306002C0C88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		48FCE70F28DD135C002C0C88 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +60,14 @@
 		48FCE6F228DD11D7002C0C88 /* ChatMate */ = {
 			isa = PBXGroup;
 			children = (
+				48FCE70E28DD1306002C0C88 /* Info.plist */,
 				48FCE6F328DD11D7002C0C88 /* ChatMateApp.swift */,
-				48FCE6F528DD11D7002C0C88 /* ContentView.swift */,
+				48FCE70128DD11E7002C0C88 /* Views */,
+				48FCE70328DD11F2002C0C88 /* Model */,
+				48FCE70228DD11EC002C0C88 /* ViewModel */,
+				48FCE70628DD1234002C0C88 /* Services */,
+				48FCE70428DD11F8002C0C88 /* Helper */,
+				48FCE70728DD1294002C0C88 /* Fonts */,
 				48FCE6F728DD11D9002C0C88 /* Assets.xcassets */,
 				48FCE6F928DD11D9002C0C88 /* Preview Content */,
 			);
@@ -65,6 +80,53 @@
 				48FCE6FA28DD11D9002C0C88 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		48FCE70128DD11E7002C0C88 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				48FCE6F528DD11D7002C0C88 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		48FCE70228DD11EC002C0C88 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		48FCE70328DD11F2002C0C88 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		48FCE70428DD11F8002C0C88 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				48FCE70F28DD135C002C0C88 /* Fonts.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		48FCE70628DD1234002C0C88 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		48FCE70728DD1294002C0C88 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				48FCE70A28DD12A9002C0C88 /* LexendDeca-Bold.ttf */,
+				48FCE70928DD12A9002C0C88 /* LexendDeca-Regular.ttf */,
+				48FCE70828DD12A9002C0C88 /* LexendDeca-SemiBold.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +188,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				48FCE6FB28DD11D9002C0C88 /* Preview Assets.xcassets in Resources */,
+				48FCE70D28DD12A9002C0C88 /* LexendDeca-Bold.ttf in Resources */,
 				48FCE6F828DD11D9002C0C88 /* Assets.xcassets in Resources */,
+				48FCE70C28DD12A9002C0C88 /* LexendDeca-Regular.ttf in Resources */,
+				48FCE70B28DD12A9002C0C88 /* LexendDeca-SemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +203,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				48FCE6F628DD11D7002C0C88 /* ContentView.swift in Sources */,
+				48FCE71028DD135C002C0C88 /* Fonts.swift in Sources */,
 				48FCE6F428DD11D7002C0C88 /* ChatMateApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,6 +336,7 @@
 				DEVELOPMENT_TEAM = R5HPSSBSS3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ChatMate/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +366,7 @@
 				DEVELOPMENT_TEAM = R5HPSSBSS3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ChatMate/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
