@@ -21,5 +21,4 @@ class AuthViewModel {
     static func logout() {
         try? Auth.auth().signOut()
     }
-    
 }

@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4889532128EB5BA2003FD054 /* OnBoardingContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4889532028EB5BA2003FD054 /* OnBoardingContainerView.swift */; };
+		4889532328EB5C5F003FD054 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4889532228EB5C5F003FD054 /* WelcomeView.swift */; };
+		4889532528EB5C80003FD054 /* PhoneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4889532428EB5C80003FD054 /* PhoneView.swift */; };
+		4889532728EB5C8D003FD054 /* VerificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4889532628EB5C8D003FD054 /* VerificationView.swift */; };
+		4889532928EB5C9E003FD054 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4889532828EB5C9E003FD054 /* ProfileView.swift */; };
+		4889532B28EB5CA9003FD054 /* ContactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4889532A28EB5CA9003FD054 /* ContactsView.swift */; };
+		4889532D28EB5FBD003FD054 /* OnboardingCustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4889532C28EB5FBD003FD054 /* OnboardingCustomButton.swift */; };
+		4889532F28EB7A9A003FD054 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4889532E28EB7A9A003FD054 /* AppDelegate.swift */; };
+		4889533128EB7C39003FD054 /* ProfileTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4889533028EB7C39003FD054 /* ProfileTextField.swift */; };
 		48FCE6F428DD11D7002C0C88 /* ChatMate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FCE6F328DD11D7002C0C88 /* ChatMate.swift */; };
 		48FCE6F628DD11D7002C0C88 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FCE6F528DD11D7002C0C88 /* StartView.swift */; };
 		48FCE6F828DD11D9002C0C88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48FCE6F728DD11D9002C0C88 /* Assets.xcassets */; };
@@ -26,6 +35,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4889532028EB5BA2003FD054 /* OnBoardingContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingContainerView.swift; sourceTree = "<group>"; };
+		4889532228EB5C5F003FD054 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		4889532428EB5C80003FD054 /* PhoneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneView.swift; sourceTree = "<group>"; };
+		4889532628EB5C8D003FD054 /* VerificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationView.swift; sourceTree = "<group>"; };
+		4889532828EB5C9E003FD054 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		4889532A28EB5CA9003FD054 /* ContactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsView.swift; sourceTree = "<group>"; };
+		4889532C28EB5FBD003FD054 /* OnboardingCustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCustomButton.swift; sourceTree = "<group>"; };
+		4889532E28EB7A9A003FD054 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4889533028EB7C39003FD054 /* ProfileTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTextField.swift; sourceTree = "<group>"; };
 		48FCE6F028DD11D7002C0C88 /* ChatMate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatMate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48FCE6F328DD11D7002C0C88 /* ChatMate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMate.swift; sourceTree = "<group>"; };
 		48FCE6F528DD11D7002C0C88 /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
@@ -57,6 +75,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4889531F28EB5B87003FD054 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				4889532028EB5BA2003FD054 /* OnBoardingContainerView.swift */,
+				4889532228EB5C5F003FD054 /* WelcomeView.swift */,
+				4889532428EB5C80003FD054 /* PhoneView.swift */,
+				4889532628EB5C8D003FD054 /* VerificationView.swift */,
+				4889532828EB5C9E003FD054 /* ProfileView.swift */,
+				4889532A28EB5CA9003FD054 /* ContactsView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
 		48FCE6E728DD11D7002C0C88 = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +109,7 @@
 			children = (
 				48FCE71F28DE0A54002C0C88 /* GoogleService-Info.plist */,
 				48FCE70E28DD1306002C0C88 /* Info.plist */,
+				4889532E28EB7A9A003FD054 /* AppDelegate.swift */,
 				48FCE6F328DD11D7002C0C88 /* ChatMate.swift */,
 				48FCE70128DD11E7002C0C88 /* Views */,
 				48FCE70328DD11F2002C0C88 /* Model */,
@@ -103,6 +135,7 @@
 			isa = PBXGroup;
 			children = (
 				48FCE6F528DD11D7002C0C88 /* StartView.swift */,
+				4889531F28EB5B87003FD054 /* Onboarding */,
 				48FCE71128DD1435002C0C88 /* TabBar */,
 			);
 			path = Views;
@@ -127,6 +160,8 @@
 			isa = PBXGroup;
 			children = (
 				48FCE70F28DD135C002C0C88 /* Fonts.swift */,
+				4889532C28EB5FBD003FD054 /* OnboardingCustomButton.swift */,
+				4889533028EB7C39003FD054 /* ProfileTextField.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -243,9 +278,18 @@
 				48FCE71328DD1455002C0C88 /* CustomTabBar.swift in Sources */,
 				48FCE6F628DD11D7002C0C88 /* StartView.swift in Sources */,
 				48FCE72D28DE12E4002C0C88 /* AuthViewModel.swift in Sources */,
+				4889532B28EB5CA9003FD054 /* ContactsView.swift in Sources */,
+				4889532F28EB7A9A003FD054 /* AppDelegate.swift in Sources */,
+				4889532328EB5C5F003FD054 /* WelcomeView.swift in Sources */,
+				4889532528EB5C80003FD054 /* PhoneView.swift in Sources */,
+				4889532728EB5C8D003FD054 /* VerificationView.swift in Sources */,
 				48FCE71028DD135C002C0C88 /* Fonts.swift in Sources */,
+				4889532128EB5BA2003FD054 /* OnBoardingContainerView.swift in Sources */,
 				48FCE71E28DD1AD3002C0C88 /* TabBarButton.swift in Sources */,
+				4889532928EB5C9E003FD054 /* ProfileView.swift in Sources */,
+				4889532D28EB5FBD003FD054 /* OnboardingCustomButton.swift in Sources */,
 				48FCE6F428DD11D7002C0C88 /* ChatMate.swift in Sources */,
+				4889533128EB7C39003FD054 /* ProfileTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
